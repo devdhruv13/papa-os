@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>papa-os</title>
 </head>
 <body>
+    <canvas id="matrix"></canvas>
     <div id="terminal">
-        this is text
+        <span id="output"></span><span class="cursor"></span>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
